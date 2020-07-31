@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "chapter0Exercises.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << "Hello, World!";
+    ch0::helloWorld();
+    ch0::escapeChars();
+    ch0::tabs();
     return 0;
 }
+
