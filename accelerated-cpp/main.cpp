@@ -8,12 +8,11 @@
 
 #include <iostream>
 #include "chapter0Exercises.hpp"
+#include "framedNameV1.hpp"
+#include "framedNameV2.hpp"
 
 int main() {
-    std::cout << "Hello, World!";
-    ch0::helloWorld();
-    ch0::escapeChars();
-    ch0::tabs();
+    greetingV2();
     return 0;
 }
 

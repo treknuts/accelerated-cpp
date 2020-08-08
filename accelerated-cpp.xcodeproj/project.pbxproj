@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6916E56E24D3BD570084D59C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6916E56D24D3BD570084D59C /* main.cpp */; };
 		6916E57624D3BF170084D59C /* chapter0Exercises.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6916E57424D3BF170084D59C /* chapter0Exercises.cpp */; };
+		6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119024DF1189008BFF38 /* framedNameV1.cpp */; };
+		6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119324DF166B008BFF38 /* framedNameV2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		6916E56D24D3BD570084D59C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6916E57424D3BF170084D59C /* chapter0Exercises.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter0Exercises.cpp; sourceTree = "<group>"; };
 		6916E57524D3BF170084D59C /* chapter0Exercises.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = chapter0Exercises.hpp; sourceTree = "<group>"; };
+		6924119024DF1189008BFF38 /* framedNameV1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framedNameV1.cpp; sourceTree = "<group>"; };
+		6924119124DF1189008BFF38 /* framedNameV1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framedNameV1.hpp; sourceTree = "<group>"; };
+		6924119324DF166B008BFF38 /* framedNameV2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framedNameV2.cpp; sourceTree = "<group>"; };
+		6924119424DF166B008BFF38 /* framedNameV2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framedNameV2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				6916E56D24D3BD570084D59C /* main.cpp */,
 				6916E57424D3BF170084D59C /* chapter0Exercises.cpp */,
 				6916E57524D3BF170084D59C /* chapter0Exercises.hpp */,
+				6924119024DF1189008BFF38 /* framedNameV1.cpp */,
+				6924119124DF1189008BFF38 /* framedNameV1.hpp */,
+				6924119324DF166B008BFF38 /* framedNameV2.cpp */,
+				6924119424DF166B008BFF38 /* framedNameV2.hpp */,
 			);
 			path = "accelerated-cpp";
 			sourceTree = "<group>";
@@ -125,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6916E57624D3BF170084D59C /* chapter0Exercises.cpp in Sources */,
+				6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */,
 				6916E56E24D3BD570084D59C /* main.cpp in Sources */,
+				6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
