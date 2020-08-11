@@ -10,9 +10,10 @@
 #include "chapter0Exercises.hpp"
 #include "framedNameV1.hpp"
 #include "framedNameV2.hpp"
+#include "gradeCalculator.hpp"
 
 int main() {
-    greetingV2();
+    calculateGrade();
     return 0;
 }
 
