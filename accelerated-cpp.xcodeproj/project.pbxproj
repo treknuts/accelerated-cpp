@@ -11,7 +11,7 @@
 		6916E57624D3BF170084D59C /* chapter0Exercises.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6916E57424D3BF170084D59C /* chapter0Exercises.cpp */; };
 		6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119024DF1189008BFF38 /* framedNameV1.cpp */; };
 		6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119324DF166B008BFF38 /* framedNameV2.cpp */; };
-		69F6EC8424E0EE9800CB33B1 /* gradeCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F6EC8224E0EE9800CB33B1 /* gradeCalculator.cpp */; };
+		6944967B24EB77B5006C55A3 /* median.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944967924EB77B5006C55A3 /* median.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +35,8 @@
 		6924119124DF1189008BFF38 /* framedNameV1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framedNameV1.hpp; sourceTree = "<group>"; };
 		6924119324DF166B008BFF38 /* framedNameV2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framedNameV2.cpp; sourceTree = "<group>"; };
 		6924119424DF166B008BFF38 /* framedNameV2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framedNameV2.hpp; sourceTree = "<group>"; };
-		69F6EC8224E0EE9800CB33B1 /* gradeCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gradeCalculator.cpp; sourceTree = "<group>"; };
-		69F6EC8324E0EE9800CB33B1 /* gradeCalculator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gradeCalculator.hpp; sourceTree = "<group>"; };
+		6944967924EB77B5006C55A3 /* median.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = median.cpp; sourceTree = "<group>"; };
+		6944967A24EB77B5006C55A3 /* median.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = median.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 				6924119124DF1189008BFF38 /* framedNameV1.hpp */,
 				6924119324DF166B008BFF38 /* framedNameV2.cpp */,
 				6924119424DF166B008BFF38 /* framedNameV2.hpp */,
-				69F6EC8224E0EE9800CB33B1 /* gradeCalculator.cpp */,
-				69F6EC8324E0EE9800CB33B1 /* gradeCalculator.hpp */,
+				6944967924EB77B5006C55A3 /* median.cpp */,
+				6944967A24EB77B5006C55A3 /* median.hpp */,
 			);
 			path = "accelerated-cpp";
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6916E57624D3BF170084D59C /* chapter0Exercises.cpp in Sources */,
+				6944967B24EB77B5006C55A3 /* median.cpp in Sources */,
 				6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */,
 				6916E56E24D3BD570084D59C /* main.cpp in Sources */,
 				6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */,
-				69F6EC8424E0EE9800CB33B1 /* gradeCalculator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
