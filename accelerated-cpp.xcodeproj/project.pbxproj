@@ -12,6 +12,8 @@
 		6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119024DF1189008BFF38 /* framedNameV1.cpp */; };
 		6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6924119324DF166B008BFF38 /* framedNameV2.cpp */; };
 		6944967B24EB77B5006C55A3 /* median.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6944967924EB77B5006C55A3 /* median.cpp */; };
+		69DAED6124F705B4004B49F8 /* studentInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69DAED5F24F705B4004B49F8 /* studentInfo.cpp */; };
+		69DAED6424F70883004B49F8 /* grade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69DAED6324F70883004B49F8 /* grade.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +38,11 @@
 		6924119324DF166B008BFF38 /* framedNameV2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = framedNameV2.cpp; sourceTree = "<group>"; };
 		6924119424DF166B008BFF38 /* framedNameV2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framedNameV2.hpp; sourceTree = "<group>"; };
 		6944967924EB77B5006C55A3 /* median.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = median.cpp; sourceTree = "<group>"; };
-		6944967A24EB77B5006C55A3 /* median.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = median.hpp; sourceTree = "<group>"; };
+		6944967A24EB77B5006C55A3 /* median.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = median.h; sourceTree = "<group>"; };
+		69DAED5E24F70445004B49F8 /* Student_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student_info.h; sourceTree = "<group>"; };
+		69DAED5F24F705B4004B49F8 /* studentInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = studentInfo.cpp; sourceTree = "<group>"; };
+		69DAED6224F707DD004B49F8 /* grade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grade.h; sourceTree = "<group>"; };
+		69DAED6324F70883004B49F8 /* grade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grade.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		6916E56C24D3BD570084D59C /* accelerated-cpp */ = {
 			isa = PBXGroup;
 			children = (
+				69DAED6524F70967004B49F8 /* grading-app */,
 				6916E56D24D3BD570084D59C /* main.cpp */,
 				6916E57424D3BF170084D59C /* chapter0Exercises.cpp */,
 				6916E57524D3BF170084D59C /* chapter0Exercises.hpp */,
@@ -76,10 +83,21 @@
 				6924119124DF1189008BFF38 /* framedNameV1.hpp */,
 				6924119324DF166B008BFF38 /* framedNameV2.cpp */,
 				6924119424DF166B008BFF38 /* framedNameV2.hpp */,
-				6944967924EB77B5006C55A3 /* median.cpp */,
-				6944967A24EB77B5006C55A3 /* median.hpp */,
 			);
 			path = "accelerated-cpp";
+			sourceTree = "<group>";
+		};
+		69DAED6524F70967004B49F8 /* grading-app */ = {
+			isa = PBXGroup;
+			children = (
+				6944967924EB77B5006C55A3 /* median.cpp */,
+				6944967A24EB77B5006C55A3 /* median.h */,
+				69DAED5E24F70445004B49F8 /* Student_info.h */,
+				69DAED5F24F705B4004B49F8 /* studentInfo.cpp */,
+				69DAED6224F707DD004B49F8 /* grade.h */,
+				69DAED6324F70883004B49F8 /* grade.cpp */,
+			);
+			path = "grading-app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6916E57624D3BF170084D59C /* chapter0Exercises.cpp in Sources */,
+				69DAED6124F705B4004B49F8 /* studentInfo.cpp in Sources */,
 				6944967B24EB77B5006C55A3 /* median.cpp in Sources */,
+				69DAED6424F70883004B49F8 /* grade.cpp in Sources */,
 				6924119524DF166B008BFF38 /* framedNameV2.cpp in Sources */,
 				6916E56E24D3BD570084D59C /* main.cpp in Sources */,
 				6924119224DF1189008BFF38 /* framedNameV1.cpp in Sources */,

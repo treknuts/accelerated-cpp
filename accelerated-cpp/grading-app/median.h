@@ -1,5 +1,5 @@
-#ifndef median_hpp
-#define median_hpp
+#ifndef median_h
+#define median_h
 
 #include <stdio.h>
 #include <vector>
