@@ -75,8 +75,16 @@
 		6916E56C24D3BD570084D59C /* accelerated-cpp */ = {
 			isa = PBXGroup;
 			children = (
+				6920282C24F8068700FF124B /* ch0 */,
 				69DAED6524F70967004B49F8 /* grading-app */,
 				6916E56D24D3BD570084D59C /* main.cpp */,
+			);
+			path = "accelerated-cpp";
+			sourceTree = "<group>";
+		};
+		6920282C24F8068700FF124B /* ch0 */ = {
+			isa = PBXGroup;
+			children = (
 				6916E57424D3BF170084D59C /* chapter0Exercises.cpp */,
 				6916E57524D3BF170084D59C /* chapter0Exercises.hpp */,
 				6924119024DF1189008BFF38 /* framedNameV1.cpp */,
@@ -84,7 +92,7 @@
 				6924119324DF166B008BFF38 /* framedNameV2.cpp */,
 				6924119424DF166B008BFF38 /* framedNameV2.hpp */,
 			);
-			path = "accelerated-cpp";
+			path = ch0;
 			sourceTree = "<group>";
 		};
 		69DAED6524F70967004B49F8 /* grading-app */ = {
